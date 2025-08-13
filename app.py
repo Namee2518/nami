@@ -7,7 +7,7 @@ with open('linear_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Streamlit App
-st.title("House Price Predictor 🏠")
+st.title("nameetha house 🏠")
 
 size = st.number_input("Enter house size (in sqm):", min_value=10, max_value=500, value=50)
 
